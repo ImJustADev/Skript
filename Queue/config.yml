@@ -1,1 +1,33 @@
-#insert config.yml code here
+#config.yml
+
+permissions:
+    admin: queue.admin  
+
+#Queues GUI Expressions Help
+#{name} = Minigame Name
+#{queue-name} = Actual Queue Name (Includes Numbers)
+#{num} = Queue Number
+#{player} = name of player opening GUI
+#{min} = minimum players needed
+#{max} = maximum players in queue
+#{current} = current amount of players   
+
+games:
+    KB_Warriors:
+        max-queues: 2
+        min-players: 2
+        max-players: 12
+        GUI_Format:
+            item: empty map
+            item_name: '&b&lKnock Back Warriors #{num} &7({current}/{max})'
+            lore:
+                - '&7Click to join Game'
+    Rainbow_Run:
+        max-queues: 2
+        min-players: 2
+        max-players: 12
+        GUI_Format:
+            item: empty map
+            item_name: '&a&lRainbow Run #{num} &7({current}/{max})'
+            lore:
+                - '&7Click to join Game'
