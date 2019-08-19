@@ -4,7 +4,7 @@
 * Author: JustADev
 * Last Updated: 8/19/2019
 
-## Future Update List
+## Future Updates
 - [ ] Queue List
 - [ ] Queue .yml files
 - [ ] Queue Bans/Unbans
