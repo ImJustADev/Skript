@@ -5,6 +5,7 @@
 * Last Updated: 8/19/2019
 
 ## Future Update List
-- [ ] Queue List\New
+- [ ] Queue List
 - [ ] Queue .yml files
 - [ ] Queue Bans/Unbans
+- [ ] Queue Clearing
