@@ -8,3 +8,4 @@
 - [ ] Queue List
 - [ ] Queue .yml files
 - [ ] Queue Bans/Unbans
+- [ ] \(Optional) Open a follow up issue
