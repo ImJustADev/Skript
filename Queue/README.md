@@ -6,6 +6,6 @@
 
 ## Future Updates
 - [ ] Queue List
-- [ ] Queue .yml files
+- [ ] Queue .yml files (per Queue)
 - [ ] Queue Bans/Unbans
 - [ ] Queue Clearing
