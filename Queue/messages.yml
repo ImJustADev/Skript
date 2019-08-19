@@ -1,1 +1,29 @@
-#insert messages.yml code here
+prefix: '&eMap&7'
+join-queue: '{player} joined the queue &7({size}/{max})'
+leave-queue: '{player} left the queue'
+start-queue: '{game} is starting in {left}'
+start-msg: '{game} has started'
+no-game: '&cERROR:&7 You must specify a game'
+invalid-game: '&cERROR:&7 That is not a valid game'
+invalid-args: '&cERROR:&7 You provided an invalid argument'
+too-many-arguments: '&cERROR:&7 You provided too many arguments'
+not-in-queue: '&cERROR:&7 You aren''t in the queue'
+no-perm: 'Unknown command'
+already-in-queue: '&cERROR:&7 You are already in a queue (/queue leave)'
+not-in-queue: '&cERROR:&7 You are not in a queue'
+inv-name: 'Games: {game}'
+
+help-message:
+    - '&eQueue Help Page'
+    - ''
+    - '&f/queue join <Game> -&7 Join a game queue'
+    - '&f/queue leave -&7 Leave your current queue'
+    - ''
+admin-help-message:
+    - '&eQueue Help Page &c[Admin]'
+    - ''
+    - '&f/queue join <Game> <Player> -&7 Join a game queue'
+    - '&f/queue leave <Game> <Player> -&7 Leave your current queue'
+    - ''  
+
+#30, 20, 10, 9
