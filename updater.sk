@@ -1,0 +1,10 @@
+#Requires skUtilities
+on script load:
+	if file "plugins/Queue/config.yml" doesn't exist:
+		download file from "URL" to file "plugins/Queue/config.yml"
+		send "[Queue] File ''config.yml'' doesn''t exist" to console
+		send "[Queue] Downloading file ''config.yml'' from repository" to console
+	if file "plugins/Queue/messages.yml" doesn't exist:
+		download file from "URL" to file "plugins/Queue/messages.yml"
+		send "[Queue] File ''messsages.yml' doesn''t exist" to console
+		send "[Queue] Downloading file ''messages.yml'' from repository" to console
