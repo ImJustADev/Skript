@@ -1,5 +1,8 @@
 #config.yml
 
+queue: true
+updater: true
+
 permissions:
     admin: queue.admin  
 
